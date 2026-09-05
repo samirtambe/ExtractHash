@@ -8,3 +8,6 @@ Extract PC's hash value and save it to a CSV file
 ```
 powershell -ExecutionPolicy Bypass -File "C:\WHEREVER_YOU_SAVED_IT\ExtractHash.ps1"
 ```
+
+Afterwards, it will save the hash of the PC to a file called `HWHash.csv` in the `C:\temp\` directory.
+You can then upload the hash to Microsoft Intune. 
