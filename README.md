@@ -1,5 +1,5 @@
 # ExtractHash
-Extract the hash of the PC to a `.CSV` file so it can be uploaded to https://intune.microsoft.com/.
+Extract the hash of the PC to a `.CSV` file so it can be uploaded to Microsoft Intune: https://intune.microsoft.com/.
 
 ## How to run the command
 **IMPORTANT NOTE**: This is usually done when you first unbox a PC - meaning after powering on the PC, it displays the **Out-of-Box-Experience (OOBE) screen**. The script will extract the hash to a file called `HWHash.csv` in the `C:\temp\` directory that it just created.
@@ -16,4 +16,4 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\defaultuser0\Downloads\Extrac
 **PLEASE REMEMBER**: It might display a prompt asking if you want to install or get packages from the NUGet provider. Enter 'y' for yes.
 
 5. Verify hash was extracted to file called `HWHash.csv` in `C:\temp\` directory.
-6. You can then upload the hash to Microsoft Intune (https://intune.microsoft.com/). 
+6. You can then upload the hash to Microsoft Intune https://intune.microsoft.com/. 
