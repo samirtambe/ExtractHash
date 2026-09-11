@@ -11,11 +11,14 @@ We are Saving or copying the `ExtractHash.ps1` file to the PC whose Hash you nee
 3. Open Command Prompt. If you **ARE NOT** on the Out-of-Box-Experience (OOBE) screen, use `Run as Administrator`.
 4. Inside the command prompt enter the following:
 
-**OOBE**
+Out-of-Box-Experience (OOBE):
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Users\defaultuser0\Downloads\ExtractHash.ps1"
 ```
-**NOT OOBE** - (substitute the `<USERNAME>` with the actual username:
+
+**OR** 
+
+**NOT** Out-of-Box-Experience (OOBE) - be sure to substitute the `<USERNAME>` with the actual username:
 ```
 powershell -ExecutionPolicy Bypass -File "C:\Users\<USERNAME>\Downloads\ExtractHash.ps1"
 ```
