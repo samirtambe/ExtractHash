@@ -7,7 +7,7 @@ We are Saving or copying the `ExtractHash.ps1` file to the PC whose Hash you nee
 **IMPORTANT NOTE**: This is usually done when you first unbox a PC - meaning after powering on the PC, it displays the **Out-of-Box-Experience (OOBE) screen**.
 
 1. Make sure you are connected to internet.
-2. Save `ExtractHash.ps1` file to Downloads folder, which should be `C:\Users\defaultuser0\Downloads\`. If you **ARE NOT** on the Out-of-Box-Experience (OOBE) screen, then save the `ExtractHash.ps1` file to `C:\Users\<USERNAME>\Downloads\` 
+2. Save `ExtractHash.ps1` file to Downloads folder, which should be `C:\Users\defaultuser0\Downloads\`. If you **ARE NOT** on the Out-of-Box-Experience (OOBE) screen, then save the `ExtractHash.ps1` file to `C:\Users\<USERNAME>\Downloads\`. Be sure to substitute the `<USERNAME>` with the actual username.
 3. Open Command Prompt. If you **ARE NOT** on the Out-of-Box-Experience (OOBE) screen, use `Run as Administrator`.
 4. Inside the command prompt enter the following:
 
