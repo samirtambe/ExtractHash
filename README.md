@@ -16,4 +16,4 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\defaultuser0\Downloads\Extrac
 **PLEASE REMEMBER**: It might display a prompt asking if you want to install or get packages from the NUGet provider. Enter 'y' for yes.
 
 5. Verify hash was extracted to file called `HWHash.csv` in `C:\temp\` directory.
-6. You can then upload the hash to Microsoft Intune - https://intune.microsoft.com/. 
+6. You can then upload the `HWHash.csv` to Microsoft Intune - https://intune.microsoft.com/. 
